@@ -1,0 +1,38 @@
+table{
+    text-align: center;/*this CSS piece styles the table*/
+    border-color: black;
+    background-color: SkyBlue;
+    
+}
+[colspan]{
+    text-align: center;/*this CSS piece uses the attribute selector to center the text in all cells with ID colspan the table*/
+}
+
+html{
+     background-image: url("MarylandFlag.jpg");/*this code sets the background of the page to the Maryland Flag, because Maryland loves its flag*/
+}
+
+ table.center {/*this CSS piece places the table in the center of the page*/
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+#header{
+    background-color: white;/*this CSS uses the ID selector to change the background color*/
+}
+#rock{
+    background-color: black;
+}
+#paper{
+    background-color: black;/*this CSS uses the ID selector to change the background color*/
+}
+#scissors{
+    background-color: black;
+}
+
+#myCounter{
+    background-color: SkyBlue;/*this CSS uses the ID selector to change the background color*/
+}
+#classCounter{
+    background-color: SkyBlue;
+}
